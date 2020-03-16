@@ -187,7 +187,6 @@ header .navbar .nav-item a::before {
 }
 
 header .navbar .nav-item:hover {
-  background-color: #fdbe34;
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
