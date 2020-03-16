@@ -33,12 +33,21 @@
   }
 }
 
+@media screen and (min-width: 992px) {
+  #fifthSection span.last {
+    padding: 0 !important;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .navbar-toggler {
     display: block;
   }
   #secondTeamSection .card {
     padding-bottom: 20px;
+  }
+  #fifthSection span.last {
+    padding: 0 !important;
   }
 }
 

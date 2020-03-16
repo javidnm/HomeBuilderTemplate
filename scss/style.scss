@@ -14,14 +14,33 @@
     transform: scale3d(1, 1, 1);
   }
 }
+@media screen and (min-width:992px){
+  #fifthSection{
+    
+    span.last{
+    padding: 0 !important;
+  
+  }
+  
+}
+}
 @media screen and (max-width: 992px) {
   .navbar-toggler {
     display: block;
   }
   #secondTeamSection{
+    
     .card{
       padding-bottom: 20px;
     }
+  }
+  #fifthSection{
+    
+      span.last{
+      padding: 0 !important;
+    
+    }
+    
   }
 }
 @media screen and (max-width: 768px) {
@@ -42,7 +61,7 @@
       justify-content: center !important;
     }
   }
-
+  
 }
 ul {
   list-style-type: none;
