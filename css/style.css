@@ -49,6 +49,15 @@
   #secondTeamSection .card {
     padding-bottom: 25px;
   }
+  #fourthSection .img {
+    height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
 }
 
 ul {
